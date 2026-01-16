@@ -86,6 +86,17 @@ section h3 {
   padding-left: 0;
 }
 
+.delete-icon {
+  cursor: pointer;
+  margin-left: 8px;
+  opacity: 0.6;
+  transition: opacity 0.2s;
+}
+
+.delete-icon:hover {
+  opacity: 1;
+}
+
 .participants-list li {
   padding: 6px 12px;
   margin: 4px 0;
